@@ -16,9 +16,10 @@ class CreateHorsesTable extends Migration
         Schema::create('horses', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->string
-            $table->
-            $table->
+            $table->string('breed');
+            $table->string('color');
+            $table->integer('fone');
+            $table->string('email');
         });
     }
 
